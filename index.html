@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frontend Challenge</title>
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="content">
+			<div class="navbar">
+				<div class="menu"><i class="fas fa-bars fa-lg"></i></div>
+				<div class="notification"><i class="far fa-bell"></i></div>
+			</div>
+			<div class="blockLine"></div>
+
+			<div class="cardContainer">
+				<h1>Application Status</h1>
+				<a class="schoolCard" id="schoolCard1" href="#">
+					<div class="left">
+						<div class="schoolInfo">
+							<div class="schoolLogo">
+								<img src="./img/utLogo.png" alt="schoolLogo" />
+							</div>
+							<div class="schoolCourseDetail">
+								<ul>
+									<li><h2>Toronto University</h2></li>
+									<li><h3>Computer Science</h3></li>
+									<li><h4>2021/11/09</h4></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="symbol" id="symbol1"></div>
+						<div class="refund">
+							<h2>Save $100</h2>
+						</div>
+					</div>
+				</a>
+				<a class="schoolCard" href="./blankPage.html">
+					<div class="left">
+						<div class="schoolInfo">
+							<div class="schoolLogo">
+								<img src="./img/westernLogo.jpeg" alt="schoolLogo" />
+							</div>
+							<div class="schoolCourseDetail">
+								<ul>
+									<li><h2>Western University</h2></li>
+									<li><h3>Computer Science</h3></li>
+									<li><h4>2021/11/09</h4></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="symbol" id="symbol2"></div>
+						<div class="refund"><h2>$20 refund</h2></div>
+					</div>
+				</a>
+			</div>
+			<div class="blockLine"></div>
+			<footer>
+				<div class="pageButton">
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+				</div>
+			</footer>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
